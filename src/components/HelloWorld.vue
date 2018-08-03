@@ -55,7 +55,7 @@
 
       <md-table-row v-for="repo in repos">
         <md-table-cell>
-          <a class="md-accent" :href="repo.html_url">{{ repo.name }}</a>
+          <a class="md-accent" :href="repo.html_url" target="_blank">{{ repo.name }}</a>
         </md-table-cell>
         <md-table-cell>{{ repo.language }}</md-table-cell>
         <md-table-cell>{{ repo.updated_at }}</md-table-cell>
